@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68c1e0a3-f911-474f-a4ba-23ffbea2f748}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine Sources">
+      <UniqueIdentifier>{4159b98f-28c5-4f76-940b-af278346eb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d7fcf90e-6606-466f-bc2d-d22bbc30279d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Headers">
+      <UniqueIdentifier>{da873538-df9f-44f6-9246-c193196ad395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{16d93405-93e1-45ff-9fde-9667c98d313d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aDDict2Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\3dEngine.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\AdvancedMesh.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\cubes.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\EventHandler.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\IntroEditorEffects.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\ObjectGenerators.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\Parser.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\ParticleEngine.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\Splines.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\TexGen.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\Vectors.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\WindowHandler.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MinimalEngine\writer.cpp">
+      <Filter>Source Files\Engine Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aDDict2Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\3DEngine.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\AdvancedMesh.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\cubes.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\EventHandler.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\IntroEditorEffects.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\mvx.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\ObjectGenerators.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\Parser.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\ParticleEngine.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\Splines.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\TexGen.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\Vectors.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\WindowHandler.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MinimalEngine\writer.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReleaseInput\release.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Data\release.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SetupDialog.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

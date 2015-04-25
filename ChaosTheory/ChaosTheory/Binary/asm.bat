@@ -1,0 +1,1 @@
+nasmw.exe -f win32 music.asm -o music.obj
